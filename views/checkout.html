@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Mandatory Webshop</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body id="shopbody">
+
+<form name="myForm" onsubmit="return validateForm()">
+    <h1>Check-Out</h1>
+<input type="text" name="fName" placeholder="Name*">
+   <input type="text" name="lName" placeholder="Last Name*">
+           <input type="email" name="eMail" placeholder="E-mail*">
+    <input type="tel" name=tel placeholder="Telephone">
+    <input type="text" name="city" placeholder="City*">
+    <input type="text" name="adress" placeholder="Adress*">
+    <input type="number" name="zipCode" placeholder="Zip Code*">
+    <textarea rows="3" placeholder="Message"></textarea>
+    <button type="submit">Submit</button>
+</form>
+
+<script type="text/javascript" src="../scripts/checkout.js"></script>
+</body>
+<footer>
+    <a href="products.html">Products</a>
+</footer>
+</html>
